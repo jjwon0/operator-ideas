@@ -43,4 +43,6 @@ telescope:update-prompt
 
 ############ Your Custom Packages ############
 
-# my-custom-package
+service-configuration
+accounts-google
+operator-ideas

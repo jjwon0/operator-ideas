@@ -1,0 +1,16 @@
+<template name="oauth_only_login_form">
+  <div class="at-form">
+    {{#if showTitle}}
+      {{> atTitle}}
+    {{/if}}
+    {{#if showError}}
+      {{> atError}}
+    {{/if}}
+    {{#if showResult}}
+      {{> atResult}}
+    {{/if}}
+    {{#if showOauthServices}}
+      {{> atOauth}}
+    {{/if}}
+  </div>
+</template>
