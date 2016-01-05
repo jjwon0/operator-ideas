@@ -29,7 +29,7 @@ Package.onUse(function (api) {
   api.addFiles([
     'lib/client/templates/login_form.html',
     'lib/client/templates/login_form.js',
-    'lib/client/stylesheets/styles.scss',
+    'lib/client/stylesheets/styles.sass',
     'lib/client/custom_templates.js'
   ], ['client']);
 
