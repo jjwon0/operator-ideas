@@ -83,7 +83,7 @@ function setupUser (user, options) {
     profile: options.profile || {},
     telescope: {
       karma: 0,
-      isInvited: false,
+      isInvited: true,
       postCount: 0,
       commentCount: 0,
       invitedCount: 0,
